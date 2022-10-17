@@ -1,0 +1,32 @@
+<div *ngFor="let item of menu; let i = index">
+  <div *ngIf="i%2 != 0" class="cardMenuType1" fxLayout="row" fxLayoutGap="20px" fxFlexFill fxLayout>
+    <div class="cardImg" fxFlex="40">
+      <img [src]="item.img" alt="gà nướng" style="width: 100%; height: 100%;">
+    </div>
+    <div>
+      <h3>{{item.title}}</h3>
+      <p>
+        {{item.desc}}
+      </p>
+      <div fxLayout="row" fxLayoutGap="20px" fxLayout>
+        <button type="button" (click)="goToMenu()" class="btn btn-outline-secondary">KHÁM PHÁ THÊM</button>
+        <button (click)="onCallNow()" type="button" class="btn btn-danger">ĐẶT NGAY</button>
+      </div>
+    </div>
+  </div>
+  <div *ngIf="i%2 == 0" class="cardMenuType2" fxLayout="row" fxLayoutGap="20px" fxFlexFill fxLayout>
+    <div>
+      <h3>{{item.title}}</h3>
+      <p>
+        {{item.desc}}
+      </p>
+      <div fxLayout="row" fxLayoutGap="20px" fxLayout>
+        <button type="button" (click)="goToMenu()" class="btn btn-outline-secondary">KHÁM PHÁ THÊM</button>
+        <button (click)="onCallNow()" type="button" class="btn btn-danger">ĐẶT NGAY</button>
+      </div>
+    </div>
+    <div class="cardImg" fxFlex="40">
+      <img [src]="item.img" alt="gà nướng" style="width: 100%; height: 100%;">
+    </div>
+  </div>
+</div>

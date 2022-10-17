@@ -1,0 +1,18 @@
+<div fxLayout="row" fxLayout fxLayoutGap="10px" style="margin-top: 20px;">
+  <div fxFlex="13">
+   <ul>
+    <li *ngFor="let item of categories" (click)="showMenu(item.id)" [class.phase-active]="activeButton === item.id">
+      {{item.title}}
+    </li>
+   </ul>
+  </div>
+  <div fxLayout="row wrap" fxLayoutGap="25px">
+    <div *ngFor="let menu of menuList" class="card" style="width: 100px;" fxFlex="31">
+      <img [src]="menu.img" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{menu.title}}</h5>
+        <p class="card-text">{{menu.price}} vnđ</p>
+      </div>
+    </div>
+  </div>
+</div>
