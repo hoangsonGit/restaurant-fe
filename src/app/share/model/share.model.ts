@@ -21,7 +21,7 @@ export const CONFIG_SYSTEM = {
             id: 1,
             title: "Khai Vị",
             img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Một món ăn khai vị nhẹ nhàng có thể kích thích khẩu vị, nâng tầm cho bữa ăn. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món khai vị mangbanr sắc Việt Nam",
             menu: [
                 {
                     title: "Chả Giò Cù Lao Rẻ",
@@ -92,63 +92,68 @@ export const CONFIG_SYSTEM = {
             desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
             menu: [
                 {
-                    title: "Chả Giò Cù Lao Rẻ",
+                    title: "Gà Tiềm Ớt Hiểm",
+                    price: "340.000/con",
+                    img: "../../assets/images/ga-nuong.png",
+                },
+                {
+                    title: "Gà Chiên Mắm",
+                    price: "340.000/con",
+                    img: "../../assets/images/ga-nuong.png",
+                },
+                {
+                    title: "Gà Lên Mâm 3 Món",
+                    price: "340.000/con",
+                    img: "../../assets/images/ga-nuong.png",
+                },
+                {
+                    title: "Gà Lá Giang",
+                    price: "340.000/con",
+                    img: "../../assets/images/ga-nuong.png",
+                },
+                {
+                    title: "Gà Nướng Muối Ớt + Xôi Hấp",
+                    price: "340.000/con",
+                    img: "../../assets/images/ga-nuong.png",
+                },
+                {
+                    title: "Gà Hấp Mắm Nhĩ",
+                    price: "340.000/con",
+                    img: "../../assets/images/ga-nuong.png",
+                },
+                {
+                    title: "Gà Hấp Lá Chanh",
+                    price: "340.000/con",
+                    img: "../../assets/images/ga-nuong.png",
+                },
+                {
+                    title: "Gà Nướng Cơm Lam",
+                    price: "340.000/con",
+                    img: "../../assets/images/ga-nuong.png",
+                },
+                {
+                    title: "Chân Gà Hấp Hành",
+                    price: "25.000/Cặp",
+                    img: "../../assets/images/ga-nuong.png",
+                },
+                {
+                    title: "Chân Gà Chiên Mắm",
+                    price: "25.000/Cặp",
+                    img: "../../assets/images/ga-nuong.png",
+                },
+                {
+                    title: "Cánh Gà Chiên Bơ",
                     price: "90.000",
                     img: "../../assets/images/ga-nuong.png",
                 },
                 {
-                    title: "Ram Chả Cá Vườn Ba Tôi",
-                    price: "100.000",
-                    img: "../../assets/images/ga-nuong.png",
-                },
-                {
-                    title: "Gỏi Tôm Thịt Ngó Sen",
-                    price: "110.000",
-                    img: "../../assets/images/ga-nuong.png",
-                },
-                {
-                    title: "Gỏi Hải Sản Ngó Sen",
-                    price: "130.000",
-                    img: "../../assets/images/ga-nuong.png",
-                },
-                {
-                    title: "Khoai Tây Chiên",
-                    price: "60.000",
-                    img: "../../assets/images/ga-nuong.png",
-                },
-                {
-                    title: "Sakê Chiên",
-                    price: "70.000",
-                    img: "../../assets/images/ga-nuong.png",
-                },
-                {
-                    title: "Đậu Hủ Chiên Giòn",
-                    price: "50.000",
-                    img: "../../assets/images/ga-nuong.png",
-                },
-                {
-                    title: "Rau Luộc Kho Quẹt",
+                    title: "Cánh Gà Hấp Hành",
                     price: "90.000",
                     img: "../../assets/images/ga-nuong.png",
                 },
                 {
-                    title: "Rau Luộc Hai Trứng",
-                    price: "70.000",
-                    img: "../../assets/images/ga-nuong.png",
-                },
-                {
-                    title: "Khổ Qua Chà Bông",
-                    price: "60.000",
-                    img: "../../assets/images/ga-nuong.png",
-                },
-                {
-                    title: "Đậu Hủ Xả Ớt",
-                    price: "60.000",
-                    img: "../../assets/images/ga-nuong.png",
-                },
-                {
-                    title: "Lườn Ngỗng Hun Khói",
-                    price: "60.000",
+                    title: "Cánh Gà Nướng Muối Ớt",
+                    price: "90.000",
                     img: "../../assets/images/ga-nuong.png",
                 },
             ]
