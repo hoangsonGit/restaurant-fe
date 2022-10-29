@@ -9,11 +9,6 @@ export const CONFIG_SYSTEM = {
             name: 'THỰC ĐƠN',
             link: '/thuc-don',
             activeButton: 2
-        },
-        {
-            name: 'KHUYẾN MÃI',
-            link: '/khuyen-mai',
-            activeButton: 5
         }
     ],
     CATEGORIES: [
