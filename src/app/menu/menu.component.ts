@@ -3,6 +3,7 @@ import { ActivatedRoute, Router } from '@angular/router';
 import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from '../share/component/modal/modal.component';
 import { CONFIG_SYSTEM } from '../share/model/share.model';
+import { DataService } from '../share/service/shared.service';
 
 @Component({
   selector: 'app-menu',
@@ -17,8 +18,11 @@ export class MenuComponent implements OnInit {
   constructor(
     private ngbModal: NgbModal,
     private router: Router,
-    private activeRoute: ActivatedRoute
-  ) { }
+    private activeRoute: ActivatedRoute,
+    private sharedService: DataService
+  ) {
+    this.sharedService.pageActived.next(activeRoute.snapshot.data['id']);
+  }
 
   ngOnInit() {
   }

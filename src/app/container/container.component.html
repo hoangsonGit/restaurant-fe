@@ -13,13 +13,13 @@
     </div>
     <nav>
       <ul>
-        <li *ngFor="let item of menu" [class.phase-active]="activeButton === item.activeButton">
-          <a (click)="addClassActive(item.activeButton)" [routerLink]="item.link" [state]="{ id:item.activeButton }">{{item.name}}</a>
+        <li *ngFor="let item of menu" [class.phase-active]="activeButton == item.activeButton">
+          <a (click)="addClassActive(item.activeButton)" [routerLink]="item.link">{{item.name}}</a>
         </li>
       </ul>
     </nav>
   </div>
-  <div class="content">
+  <div class="content d-flex align-items-stretch justify-content-between flex-column">
     <router-outlet></router-outlet>
     <div class="footer" style="text-align: center;">
       <p class="link">

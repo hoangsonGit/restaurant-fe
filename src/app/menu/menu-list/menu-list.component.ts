@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { CONFIG_SYSTEM } from 'src/app/share/model/share.model';
+import { DataService } from 'src/app/share/service/shared.service';
 
 @Component({
   selector: 'app-menu-list',
@@ -15,7 +17,12 @@ export class MenuListComponent implements OnInit {
     price: string,
     img: string
   } []= [];
-  constructor() { }
+  constructor(
+    private activeRoute: ActivatedRoute,
+    private sharedService: DataService
+  ) {
+    this.sharedService.pageActived.next(activeRoute.snapshot.data['id']);
+   }
 
   ngOnInit() {
     this.menuList = this.categories[0].menu;
