@@ -11,7 +11,7 @@ import { DataService } from '../share/service/shared.service';
   styleUrls: ['./menu.component.less']
 })
 export class MenuComponent implements OnInit {
-
+  activeButton = 1;
   images = [62, 83, 466, 965, 982, 1043, 738].map((n) => `https://picsum.photos/id/${n}/900/500`);
 
   menu = CONFIG_SYSTEM.CATEGORIES;
@@ -32,7 +32,8 @@ export class MenuComponent implements OnInit {
     modalRef.componentInstance.message = '';
   }
 
-  goToMenu() {
-    this.router.navigate(['danh-sach-mon-an'], { relativeTo: this.activeRoute })
+  goToMenu(idMenuActive: number) {
+    this.activeButton = idMenuActive;
+    this.router.navigate(['danh-sach-mon-an'], { relativeTo: this.activeRoute, state: {id: this.activeButton} });
   }
 }

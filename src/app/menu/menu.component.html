@@ -9,7 +9,7 @@
         {{item.desc}}
       </p>
       <div fxLayout="row" fxLayoutGap="20px" fxLayout>
-        <button type="button" (click)="goToMenu()" class="btn btn-outline-secondary">KHÁM PHÁ THÊM</button>
+        <button type="button" (click)="goToMenu(item.id)" class="btn btn-outline-secondary">KHÁM PHÁ THÊM</button>
         <button (click)="onCallNow()" type="button" class="btn btn-danger">ĐẶT NGAY</button>
       </div>
     </div>
@@ -21,7 +21,7 @@
         {{item.desc}}
       </p>
       <div fxLayout="row" fxLayoutGap="20px" fxLayout>
-        <button type="button" (click)="goToMenu()" class="btn btn-outline-secondary">KHÁM PHÁ THÊM</button>
+        <button type="button" (click)="goToMenu(item.id)" class="btn btn-outline-secondary">KHÁM PHÁ THÊM</button>
         <button (click)="onCallNow()" type="button" class="btn btn-danger">ĐẶT NGAY</button>
       </div>
     </div>

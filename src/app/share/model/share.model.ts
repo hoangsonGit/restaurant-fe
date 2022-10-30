@@ -15,7 +15,7 @@ export const CONFIG_SYSTEM = {
         {
             id: 1,
             title: "Khai Vị",
-            img: "../../assets/images/ga-nuong.png",
+            img: "../../assets/images/cha_gio.png",
             desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Một món ăn khai vị nhẹ nhàng có thể kích thích khẩu vị, nâng tầm cho bữa ăn. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món khai vị mangbanr sắc Việt Nam",
             menu: [
                 {
@@ -156,13 +156,13 @@ export const CONFIG_SYSTEM = {
         {
             id: 3,
             title: "Tôm",
-            img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            img: "../../assets/images/tom_sot_thai.png",
+            desc: "Tôm là một trong những hải sản chứa nhiều dưỡng chất tốt cho sức khỏe. Ẩm Thực Vườn Ba Tui chế biến Tôm thành nhiều món ăn ngon khác nhau vừa đảm bảo dinh dưỡng cho bữa cơm lại không khiến mọi người cảm thấy ngán.",
             menu: [
                 {
                     title: "Tôm Sốt Thái",
                     price: "120.000",
-                    img: "../../assets/images/ga-nuong.png",
+                    img: "../../assets/images/tom_sot_thai.png",
                 },
                 {
                     title: "Tôm Sống (Mù Tạt)",
@@ -199,13 +199,13 @@ export const CONFIG_SYSTEM = {
         {
             id: 4,
             title: "Mực",
-            img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            img: "../../assets/images/muc_chien_nuoc_mam.png",
+            desc: "Mực là loài hải sản rất được nhiều người ưa chuộng bởi nó mang lại những giá trị dinh dưỡng, được chế biến thành nhiều món ăn ngon. Ẩm Thực Vườn Ba Tui chế biến Tôm thành nhiều món ăn ngon khác nhau vừa đảm bảo dinh dưỡng cho bữa cơm lại không khiến mọi người cảm thấy ngán.",
             menu: [
                 {
                     title: "Mực Chiên Mắm",
                     price: "115.000",
-                    img: "../../assets/images/ga-nuong.png",
+                    img: "../../assets/images/muc_chien_nuoc_mam.png",
                 },
                 {
                     title: "Mực Hấp Hành Gừng",
@@ -232,41 +232,41 @@ export const CONFIG_SYSTEM = {
         {
             id: 5,
             title: "Hải Sản Một Nắng",
-            img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            img: "../../assets/images/ca_ro_nuong_muoi_ot.png",
+            desc: "Những loài hải sản 1 nắng thường được sơ chế ngay trên thuyền đánh bắt hải sản của ngư dân và sau đó phơi đúng 1 nắng lớn. Chính vì vậy, hải sản sẽ vừa khô vừa ướt, khi nướng lên sẽ có mùi thơm đặc trưng của hải sản. Khi ăn hải sản 1 nắng, bạn sẽ cảm nhận được trọn vẹn hương vị của chúng.",
             menu: [
                 {
                     title: "Cá Rô 1 Nắng Nướng Muối Ớt",
                     price: "120.000",
-                    img: "../../assets/images/ga-nuong.png",
+                    img: "../../assets/images/ca_ro_nuong_muoi_ot.png",
                 },
                 {
                     title: "Bò 1 Nắng Nướng Muối Kiến Vàng",
                     price: "200.000",
-                    img: "../../assets/images/ga-nuong.png",
+                    img: "../../assets/images/ca_ro_nuong_muoi_ot.png",
                 },
                 {
                     title: "Cá Rô 1 Nắng Chiên Giòn",
                     price: "120.000",
-                    img: "../../assets/images/ga-nuong.png",
+                    img: "../../assets/images/ca_ro_nuong_muoi_ot.png",
                 },
                 {
                     title: "Cá Đuối 1 Nắng Nướng Muối Ớt",
                     price: "130.000",
-                    img: "../../assets/images/ga-nuong.png",
+                    img: "../../assets/images/ca_ro_nuong_muoi_ot.png",
                 },
                 {
                     title: "Cá Đuối 1 Nắng Chiên Giòn",
                     price: "130.000",
-                    img: "../../assets/images/ga-nuong.png",
+                    img: "../../assets/images/ca_ro_nuong_muoi_ot.png",
                 },
             ]
         },
         {
             id: 6,
             title: "Dê",
-            img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            img: "../../assets/images/de_com.png",
+            desc: "Thịt dê núi từ lâu đã trở thành đặc sản của đất Ninh Bình, được người địa phương chế biến thành hàng chục món ăn. Vì vậy, Ẩm Thực Vườn Ba Tui chế biến Dê thành nhiều món ăn ngon khác nhau vừa đảm bảo dinh dưỡng cho bữa cơm lại không khiến mọi người cảm thấy ngán.",
             menu: [
                 {
                     title: "Sườn Dê Nướng Muối Ớt (500g)",
@@ -276,7 +276,7 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Dê Nướng Ống Tre + Cơm Lam",
                     price: "190.000",
-                    img: "../../assets/images/ga-nuong.png",
+                    img: "../../assets/images/de_com.png",
                 },
                 {
                     title: "Dê Hấp Tía Tô",
@@ -298,8 +298,8 @@ export const CONFIG_SYSTEM = {
         {
             id: 7,
             title: "Bò",
-            img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            img: "../../assets/images/bo.png",
+            desc: "Thịt bò là là loại thịt động vật giàu chất dinh dưỡng. Hàm lượng chất đạm trong thịt bò cao gấp đôi so với nhiều loại thịt động vật khác như thịt gà, thịt lợn,… Vì thế, chúng tôi chế biến những món ăn từ Bò đa dạng, dinh dưỡng để phục vụ cho quý khách",
             menu: [
                 {
                     title: "Bò Bóp Thấu",
@@ -326,8 +326,8 @@ export const CONFIG_SYSTEM = {
         {
             id: 8,
             title: "Heo Tộc",
-            img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            img: "../../assets/images/heo_toc.png",
+            desc: "Heo Tộc là một trong những món ăn của vùng núi mà thực khách nếu đã thưởng thức sẽ không thể nào quên. Mới “xuống phố” gần đây nhưng các món ăn heo tộc đã xuất hiện khá nhiều trong thực đơn của quán nhậu, nhà hàng, quán ăn... và được khách ăn vô cùng khoái khẩu vì yếu tố “nguyên sơ”: thịt chắc, da giòn, mùi thơm núi rừng. Để tìm hiểu rỏ hơn về  và những món đặc sản từ loại heo này hãy cùng Ẩm Thực Vườn Ba Tui Quán thưởng thức",
             menu: [
                 {
                     title: "Heo Xào Xả Ớt",
@@ -354,8 +354,8 @@ export const CONFIG_SYSTEM = {
         {
             id: 11,
             title: "Cá",
-            img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            img: "../../assets/images/ca_hoi.png",
+            desc: "Các món cá trong bữa cơm hằng ngày chính là những món Việt điển hình nhất và cũng khác biệt nhất so với những nền văn hóa khác. Trên mâm cơm gia đình trải dài từ Bắc vào Nam, hầu như nhà nào cũng ăn cơm với cá. Vì vậy, Ẩm Thực Vườn Ba Tui chế biến Cá thành nhiều món ăn ngon khác nhau vừa đảm bảo dinh dưỡng cho bữa cơm lại không khiến mọi người cảm thấy ngán.",
             menu: [
                 {
                     title: "Cá Tầm Nướng Muối Ớt",
@@ -455,7 +455,7 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Sashimi Cá Hồi",
                     price: "180.000",
-                    img: "../../assets/images/ga-nuong.png",
+                    img: "../../assets/images/ca_hoi.png",
                 },
                 {
                     title: "Sashimi Cá Trứng Ép",
@@ -468,7 +468,7 @@ export const CONFIG_SYSTEM = {
             id: 12,
             title: "Ếch",
             img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            desc: "Ếch hay còn gọi là Gà Đồng, là một nguồn nguyên liệu chế biến món ăn hấp dẫn, giàu dinh dưỡng cung cấp cho cơ thể con người. Vì vậy, Ẩm Thực Vườn Ba Tui chế biến Dê thành nhiều món ăn ngon khác nhau vừa đảm bảo dinh dưỡng cho bữa cơm lại không khiến mọi người cảm thấy ngán.",
             menu: [
                 {
                     title: "Ếch Lá Giang",
@@ -690,7 +690,7 @@ export const CONFIG_SYSTEM = {
         {
             id: 18,
             title: "Nước",
-            img: "../../assets/images/ga-nuong.png",
+            img: "../../assets/images/do_uong.png",
             desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
             menu: [
                 {

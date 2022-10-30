@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Router } from '@angular/router';
 import { CONFIG_SYSTEM } from 'src/app/share/model/share.model';
 import { DataService } from 'src/app/share/service/shared.service';
 
@@ -19,9 +19,12 @@ export class MenuListComponent implements OnInit {
   } []= [];
   constructor(
     private activeRoute: ActivatedRoute,
-    private sharedService: DataService
+    private sharedService: DataService,
+    private router: Router
   ) {
     this.sharedService.pageActived.next(activeRoute.snapshot.data['id']);
+    this.router.getCurrentNavigation()?.extras.state;
+    const state = this.router.getCurrentNavigation()?.extras.state; 
    }
 
   ngOnInit() {
