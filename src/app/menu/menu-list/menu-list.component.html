@@ -6,8 +6,8 @@
     </li>
    </ul>
   </div>
-  <div fxLayout="row wrap" fxLayoutGap="25px">
-    <div *ngFor="let menu of menuList" class="card" style="width: 100px;" fxFlex="31">
+  <div fxFlex="87" fxLayout="row wrap" fxLayoutGap="25px">
+    <div *ngFor="let menu of menuList" class="card" style="width: 100px;" fxFlex.gt-md="31" fxFlex.gt-xl="20" fxFlex.gt-xs="45">
       <img [src]="menu.img" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">{{menu.title}}</h5>

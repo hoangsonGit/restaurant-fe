@@ -13,19 +13,25 @@
     </div>
     <nav>
       <ul>
-        <li *ngFor="let item of menu" [class.phase-active]="activeButton === item.activeButton">
-          <a (click)="addClassActive(item.activeButton)" [routerLink]="item.link" [state]="{ id:item.activeButton }">{{item.name}}</a>
+        <li *ngFor="let item of menu" [class.phase-active]="activeButton == item.activeButton">
+          <a (click)="addClassActive(item.activeButton)" [routerLink]="item.link">{{item.name}}</a>
         </li>
       </ul>
     </nav>
   </div>
-  <div class="content">
+  <div class="content d-flex align-items-stretch justify-content-between flex-column">
     <router-outlet></router-outlet>
     <div class="footer" style="text-align: center;">
-      <p class="link">
-        <a style="padding-right: 20px;" href="http://">https://www.facebook.com</a>
-        <a href="http://">amthucvuonbatui@gmail.com</a>
-      </p>
+      <div class="link" fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="center center">
+        <p fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="center center">
+          <span class="material-icons">facebook</span>
+          <a style="padding-right: 20px;" href="https://www.facebook.com/vuonbatui">https://www.facebook.com/vuonbatui</a>
+        </p>
+        <p fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="center center">
+          <span class="material-icons">mail</span>
+          <a href="http://">amthucvuonbatui@outlook.com</a>
+        </p>
+      </div>
       <p>
         <span>Ẩm Thực Vườn Ba Tui</span><br/>
         <span class="style-italic">Kính Chào Quý Khách</span>

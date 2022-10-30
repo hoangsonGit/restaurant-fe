@@ -5,6 +5,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from '../share/component/modal/modal.component';
 import { ActivatedRoute } from '@angular/router';
 import { map } from 'rxjs';
+import { DataService } from '../share/service/shared.service';
 
 @Component({
   selector: 'app-container',
@@ -20,10 +21,12 @@ export class ContainerComponent implements OnInit {
   constructor(
     private ngbModal: NgbModal,
     private route: ActivatedRoute,
+    private sharedService: DataService
   ) { 
     // console.log(route.snapshot.data['id'])
-    route.data.subscribe(data => {
-      console.log(data["id"]);
+    this.sharedService.pageActived.subscribe(data => {
+      this.activeButton = data;
+      console.log(this.activeButton);
       
     })
   }
