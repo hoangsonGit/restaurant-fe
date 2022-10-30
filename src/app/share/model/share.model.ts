@@ -16,7 +16,7 @@ export const CONFIG_SYSTEM = {
             id: 1,
             title: "Khai Vị",
             img: "../../assets/images/cha_gio.png",
-            desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Một món ăn khai vị nhẹ nhàng có thể kích thích khẩu vị, nâng tầm cho bữa ăn. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món khai vị mangbanr sắc Việt Nam",
+            desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Một món ăn khai vị nhẹ nhàng có thể kích thích khẩu vị, nâng tầm cho bữa ăn. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món khai vị mang bản sắc Việt Nam",
             menu: [
                 {
                     title: "Chả Giò Cù Lao Rẻ",
