@@ -511,7 +511,7 @@ export const CONFIG_SYSTEM = {
             id: 13,
             title: "Ốc Cù Lao Hoàng Sa",
             img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Một món ăn nhẹ nhàng có thể kích thích khẩu vị, nâng tầm cho bữa ăn. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Ốc Cù Lao mang bản sắc Việt Nam",
             menu: [
                 {
                     title: "Ốc Mặt Trăng (Ốc Cừ)",
@@ -539,7 +539,7 @@ export const CONFIG_SYSTEM = {
             id: 14,
             title: "Lưỡi vịt",
             img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Một món ăn nhẹ nhàng có thể kích thích khẩu vị, nâng tầm cho bữa ăn. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Lưỡi Vịt mang bản sắc Việt Nam",
             menu: [
                 {
                     title: "Lưỡi Vịt Chiên Mắm 300gr",
@@ -572,7 +572,7 @@ export const CONFIG_SYSTEM = {
             id: 15,
             title: "Lẩu",
             img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Lẩu đa dạng mang bản sắc Việt Nam",
             menu: [
                 {
                     title: "Lẩu Hải Sản",
@@ -600,7 +600,7 @@ export const CONFIG_SYSTEM = {
             id: 16,
             title: "Mì miến xào",
             img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Miến Xào đa dạng mang bản sắc Việt Nam",
             menu: [
                 {
                     title: "Mì/ Miến Xào Bò",
@@ -643,7 +643,7 @@ export const CONFIG_SYSTEM = {
             id: 17,
             title: "Cơm",
             img: "../../assets/images/ga-nuong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Cơm đa dạng mang bản sắc Việt Nam",
             menu: [
                 {
                     title: "Cơm Chiên Tỏi",
@@ -691,7 +691,7 @@ export const CONFIG_SYSTEM = {
             id: 18,
             title: "Nước",
             img: "../../assets/images/do_uong.png",
-            desc: "Sự kết hợp hoàn hảo giữa hạt cà phê Robusta & Arabica thượng hạng được trồng trên những vùng cao nguyên Việt Nam màu mỡ, qua những bí quyết rang xay độc đáo, Highlands Coffee chúng tôi tự hào giới thiệu những dòng sản phẩm Cà phê mang hương vị đậm đà và tinh tế.",
+            desc: "",
             menu: [
                 {
                     title: "Bia Heineken",
