@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.less']
 })
 export class AppComponent {
-  title = 'retaurant-project';
+  title = 'amthucvuonbatui';
+  constructor(location: Location) {
+    console.log('location', location.path());
+  }
 }

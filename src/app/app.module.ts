@@ -8,7 +8,7 @@ import { ContainerComponent } from './container/container.component';
 import { ShareModule } from './share/share-module/share-module.module';
 import { NgbAlertModule, NgbModule, NgbPaginationModule } from '@ng-bootstrap/ng-bootstrap';
 import { MenuComponent } from './menu/menu.component';
-import { CommonModule } from '@angular/common';
+import { CommonModule, HashLocationStrategy, LocationStrategy } from '@angular/common';
 import { LocationComponent } from './location/location.component';
 import { MapViewComponent } from './location/map-view/map-view.component';
 import { GoogleMapsModule } from '@angular/google-maps';
@@ -42,7 +42,7 @@ import { MenuListComponent } from './menu/menu-list/menu-list.component';
     NgbPaginationModule,
     NgbAlertModule
   ],
-  providers: [],
+  providers: [{ provide: LocationStrategy, useClass: HashLocationStrategy },],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
