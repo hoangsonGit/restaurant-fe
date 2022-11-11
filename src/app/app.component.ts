@@ -9,6 +9,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'amthucvuonbatui';
   constructor(location: Location) {
-    console.log('location', location.path());
   }
 }

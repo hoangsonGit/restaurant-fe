@@ -21,62 +21,62 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Chả Giò Cù Lao Rẻ",
                     price: "90.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/cha_gio.jpg",
                 },
                 {
                     title: "Ram Chả Cá Vườn Ba Tôi",
                     price: "100.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/cha-ram.jpg",
                 },
                 {
                     title: "Gỏi Tôm Thịt Ngó Sen",
                     price: "110.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/goi_ngo_sen.jpg",
                 },
                 {
                     title: "Gỏi Hải Sản Ngó Sen",
                     price: "130.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/goi_ngo_sen.jpg",
                 },
                 {
                     title: "Khoai Tây Chiên",
                     price: "60.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/khoai_tay_chien.gif",
                 },
                 {
                     title: "Sakê Chiên",
                     price: "70.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/sake_chien.jpg",
                 },
                 {
                     title: "Đậu Hủ Chiên Giòn",
                     price: "50.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/dauhuchiengion.jpg",
                 },
                 {
                     title: "Rau Luộc Kho Quẹt",
                     price: "90.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/rauluockhoquet.jpg",
                 },
                 {
                     title: "Rau Luộc Hai Trứng",
                     price: "70.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/rauluochaitrung.jpg",
                 },
                 {
                     title: "Khổ Qua Chà Bông",
                     price: "60.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/khoquatrabong.jpg",
                 },
                 {
                     title: "Đậu Hủ Xả Ớt",
                     price: "60.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/dauhuxaot.jpeg",
                 },
                 {
                     title: "Lườn Ngỗng Hun Khói",
                     price: "60.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/luonngonghunkhoi.jpg",
                 },
             ]
         },
@@ -89,67 +89,67 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Gà Tiềm Ớt Hiểm",
                     price: "340.000/con",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ga-tiem-ot-hiem.jpg",
                 },
                 {
                     title: "Gà Chiên Mắm",
                     price: "340.000/con",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ga-chien-nuoc-mam.jpg",
                 },
                 {
                     title: "Gà Lên Mâm 3 Món",
                     price: "340.000/con",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ga-ba-mon.jpg",
                 },
                 {
                     title: "Gà Lá Giang",
                     price: "340.000/con",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/mon-lau-ga-la-giang.jpg",
                 },
                 {
                     title: "Gà Nướng Muối Ớt + Xôi Hấp",
                     price: "340.000/con",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ga-nuong-muoi-ot.jpg",
                 },
                 {
                     title: "Gà Hấp Mắm Nhĩ",
                     price: "340.000/con",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ga-hap-mam.jpg",
                 },
                 {
                     title: "Gà Hấp Lá Chanh",
                     price: "340.000/con",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ga-la-chanh.jpg",
                 },
                 {
                     title: "Gà Nướng Cơm Lam",
                     price: "340.000/con",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ga-nuong-com.jpg",
                 },
                 {
                     title: "Chân Gà Hấp Hành",
                     price: "25.000/Cặp",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/chan-ha-hap-hanh.jpg",
                 },
                 {
                     title: "Chân Gà Chiên Mắm",
                     price: "25.000/Cặp",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/chan-ga-nuoc-mam.jpg",
                 },
                 {
                     title: "Cánh Gà Chiên Bơ",
                     price: "90.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/canh-ga-chien-bo.jpg",
                 },
                 {
                     title: "Cánh Gà Hấp Hành",
                     price: "90.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/chan-ha-hap-hanh.jpg",
                 },
                 {
                     title: "Cánh Gà Nướng Muối Ớt",
                     price: "90.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/canh-ga-muoi-ot.jfif",
                 },
             ]
         },
@@ -167,32 +167,32 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Tôm Sống (Mù Tạt)",
                     price: "120.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/tom-song-mu-tat.jpg",
                 },
                 {
                     title: "Tôm Sushi",
                     price: "130.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/tom-shushi.jpg",
                 },
                 {
                     title: "Tôm Rang Me",
                     price: "120.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/tom-rang-me.jpg",
                 },
                 {
                     title: "Tôm Chiên Giòn",
                     price: "120.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/tom-chien-gion.jpg",
                 },
                 {
                     title: "Tôm Rang Muối HK",
                     price: "120.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/tom-rang-muoi.jpg",
                 },
                 {
                     title: "Tép Om Nước Dừa",
                     price: "70.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/tep-om-nuoc-dua.jpg",
                 }
             ]
         },
@@ -210,22 +210,22 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Mực Hấp Hành Gừng",
                     price: "145.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/muc-hap-hanh-gung.jpg",
                 },
                 {
                     title: "Mực Xào Chua Ngọt",
                     price: "110.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/muc-xao.jpg",
                 },
                 {
                     title: "Mực Xào Hành Cần",
                     price: "110.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/muc-xao-can.jpg",
                 },
                 {
                     title: "Mực Chiên Giòn",
                     price: "100.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/muc-chien-gion.jpg",
                 },
             ]
         },
@@ -243,7 +243,7 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Bò 1 Nắng Nướng Muối Kiến Vàng",
                     price: "200.000",
-                    img: "./assets/images/ca_ro_nuong_muoi_ot.png",
+                    img: "./assets/images/bo-mot-nang.jpg",
                 },
                 {
                     title: "Cá Rô 1 Nắng Chiên Giòn",
@@ -253,12 +253,12 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Cá Đuối 1 Nắng Nướng Muối Ớt",
                     price: "130.000",
-                    img: "./assets/images/ca_ro_nuong_muoi_ot.png",
+                    img: "./assets/images/kho-ca-duoi-nuong.jpg",
                 },
                 {
                     title: "Cá Đuối 1 Nắng Chiên Giòn",
                     price: "130.000",
-                    img: "./assets/images/ca_ro_nuong_muoi_ot.png",
+                    img: "./assets/images/ca-duoi-nuong-muoi-ot.jpg",
                 },
             ]
         },
@@ -271,7 +271,7 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Sườn Dê Nướng Muối Ớt (500g)",
                     price: "250.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/suon-de-nuong.jpg",
                 },
                 {
                     title: "Dê Nướng Ống Tre + Cơm Lam",
@@ -281,17 +281,17 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Dê Hấp Tía Tô",
                     price: "180.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/thit-de-hap-tia-to.jpg",
                 },
                 {
                     title: "Dê Xào Lăng",
                     price: "180.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/de-xao-lan.jpg",
                 },
                 {
                     title: "Dê Xào Xả Ớt",
                     price: "190.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/de-xao-sa-ot.jpg",
                 },
             ]
         },
@@ -304,22 +304,22 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Bò Bóp Thấu",
                     price: "120.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/bo-bop-thau.jpg",
                 },
                 {
                     title: "Bò Nhúng Giấm",
                     price: "140.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/bo-nhung-giam.jpg",
                 },
                 {
                     title: "Bò Xà Lách",
                     price: "110.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ba-xa-lach.jpg",
                 },
                 {
                     title: "Bò Xào Thiên Lý",
                     price: "110.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/bo-xao-thien-ly.jpg",
                 },
             ]
         },
@@ -332,22 +332,22 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Heo Xào Xả Ớt",
                     price: "220.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/lon-rung-xao-xa-ot.jpg",
                 },
                 {
                     title: "Heo Tộc Nướng Ống Tre + Cơm Lam",
                     price: "240.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/heo-com-lam.jpg",
                 },
                 {
                     title: "Heo Xiên Que",
                     price: "210.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/heo-xien-que.jpg",
                 },
                 {
                     title: "Heo 3 Món",
                     price: "210.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/heo-com-lam.jpg",
                 },
             ]
         },

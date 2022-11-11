@@ -22,12 +22,9 @@ export class ContainerComponent implements OnInit {
     private ngbModal: NgbModal,
     private route: ActivatedRoute,
     private sharedService: DataService
-  ) { 
-    // console.log(route.snapshot.data['id'])
+  ) {
     this.sharedService.pageActived.subscribe(data => {
       this.activeButton = data;
-      console.log(this.activeButton);
-      
     })
   }
 

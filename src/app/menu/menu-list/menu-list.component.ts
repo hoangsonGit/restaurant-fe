@@ -1,5 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { AfterViewInit, Component, Input, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Subscription } from 'rxjs';
 import { CONFIG_SYSTEM } from 'src/app/share/model/share.model';
 import { DataService } from 'src/app/share/service/shared.service';
 
@@ -8,8 +9,9 @@ import { DataService } from 'src/app/share/service/shared.service';
   templateUrl: './menu-list.component.html',
   styleUrls: ['./menu-list.component.less']
 })
-export class MenuListComponent implements OnInit {
-  activeButton = 1;
+export class MenuListComponent implements OnInit,OnDestroy {
+  unSub!: Subscription;
+  activeButton = 0;
   categories = CONFIG_SYSTEM.CATEGORIES;
   isCollapsed = false;
   menuList: {
@@ -23,12 +25,21 @@ export class MenuListComponent implements OnInit {
     private router: Router
   ) {
     this.sharedService.pageActived.next(activeRoute.snapshot.data['id']);
-    this.router.getCurrentNavigation()?.extras.state;
-    const state = this.router.getCurrentNavigation()?.extras.state; 
+    this.unSub = this.sharedService.categoryActived.subscribe(data => {
+      this.activeButton = data;
+    })
    }
+  ngOnDestroy(): void {
+    this.unSub.unsubscribe();
+  }
 
   ngOnInit() {
-    this.menuList = this.categories[0].menu;
+    if(this.activeButton > 0){
+      this.showMenu(this.activeButton)
+    } else {
+      this.activeButton = 1;
+      this.menuList = this.categories[0].menu;
+    }
   }
 
   showMenu(idCategory: number) {
