@@ -10,12 +10,12 @@ export class MapViewComponent implements OnInit {
 
   // apiLoaded: Observable<boolean>;
   options: google.maps.MapOptions = {
-    center: {lat: 10.584190, lng: 107.310520},
-    zoom: 20
+    center: {lat: 10.63589859008789, lng: 107.20356750488281},
+    zoom: 18
   };
   markerOptions: google.maps.MarkerOptions = {draggable: false};
   markerPositions: google.maps.LatLngLiteral[] = [
-    {lat: 10.584190, lng: 107.310520}
+    {lat: 10.63589859008789, lng: 107.20356750488281}
   ];
   constructor(httpClient: HttpClient) {
   }
