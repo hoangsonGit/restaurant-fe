@@ -1,14 +1,14 @@
 <div class="containerContent">
   <div class="header">
     <div  fxLayout="row" fxLayoutGap fxFlexFill fxLayoutAlign="space-between center" fxLayout>
-      <div class="logo">
+      <div fxFlex="85" class="logo">
         <img src="./assets/icon/logo_icon.png" alt="logo">
       </div>
-      <div>
-        <div class="search">
+      <div fxFlex="15">
+        <!-- <div class="search">
           <input width="100px" placeholder="Nhập tìm kiếm..."/>
-        <i class="material-icons">search</i>
-        </div>
+          <i class="material-icons">search</i>
+        </div> -->
       </div>
     </div>
     <nav>
@@ -24,7 +24,7 @@
       <router-outlet></router-outlet>
     </div>
     <div class="footer" style="text-align: center;">
-      <div class="link" fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="center center">
+      <div class="link" fxLayout.gt-sm="row" fxLayoutGap.gt-sm="5px" fxLayoutAlign.gt-sm="center center">
         <p fxLayout="row" fxLayoutGap="5px" fxLayoutAlign="center center">
           <span class="material-icons">facebook</span>
           <a style="padding-right: 20px;" href="https://www.facebook.com/vuonbatui" target="_blank">https://www.facebook.com/vuonbatui</a>
