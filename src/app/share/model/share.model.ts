@@ -298,7 +298,7 @@ export const CONFIG_SYSTEM = {
         {
             id: 7,
             title: "Bò",
-            img: "./assets/images/bo.png",
+            img: "./assets/images/bo-bop-thau.png",
             desc: "Thịt bò là là loại thịt động vật giàu chất dinh dưỡng. Hàm lượng chất đạm trong thịt bò cao gấp đôi so với nhiều loại thịt động vật khác như thịt gà, thịt lợn,… Vì thế, chúng tôi chế biến những món ăn từ Bò đa dạng, dinh dưỡng để phục vụ cho quý khách",
             menu: [
                 {
@@ -467,7 +467,7 @@ export const CONFIG_SYSTEM = {
         {
             id: 12,
             title: "Ếch",
-            img: "./assets/images/ga-nuong.png",
+            img: "./assets/images/ech-rang-muoi.png",
             desc: "Ếch hay còn gọi là Gà Đồng, là một nguồn nguyên liệu chế biến món ăn hấp dẫn, giàu dinh dưỡng cung cấp cho cơ thể con người. Vì vậy, Ẩm Thực Vườn Ba Tui chế biến Dê thành nhiều món ăn ngon khác nhau vừa đảm bảo dinh dưỡng cho bữa cơm lại không khiến mọi người cảm thấy ngán.",
             menu: [
                 {
@@ -478,7 +478,7 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Ếch Rang Muối",
                     price: "110.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ech-rang-muoi.png",
                 },
                 {
                     title: "Ếch Xào Xã Ớt",
@@ -510,7 +510,7 @@ export const CONFIG_SYSTEM = {
         {
             id: 13,
             title: "Ốc Cù Lao Hoàng Sa",
-            img: "./assets/images/ga-nuong.png",
+            img: "./assets/images/oc-mat-trang.png",
             desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Một món ăn nhẹ nhàng có thể kích thích khẩu vị, nâng tầm cho bữa ăn. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Ốc Cù Lao mang bản sắc Việt Nam",
             menu: [
                 {
@@ -538,7 +538,7 @@ export const CONFIG_SYSTEM = {
         {
             id: 14,
             title: "Lưỡi vịt",
-            img: "./assets/images/ga-nuong.png",
+            img: "./assets/images/luoi-vit.png",
             desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Một món ăn nhẹ nhàng có thể kích thích khẩu vị, nâng tầm cho bữa ăn. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Lưỡi Vịt mang bản sắc Việt Nam",
             menu: [
                 {
@@ -554,7 +554,7 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Lưỡi Vịt Khía Nước Dừa",
                     price: "120.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/luoi-vit.png",
                 },
                 {
                     title: "Lưỡi Vịt Cháy Tỏi",
@@ -571,7 +571,7 @@ export const CONFIG_SYSTEM = {
         {
             id: 15,
             title: "Lẩu",
-            img: "./assets/images/ga-nuong.png",
+            img: "./assets/images/bo-nhung-giam.png",
             desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Lẩu đa dạng mang bản sắc Việt Nam",
             menu: [
                 {
@@ -599,13 +599,13 @@ export const CONFIG_SYSTEM = {
         {
             id: 16,
             title: "Mì miến xào",
-            img: "./assets/images/ga-nuong.png",
+            img: "./assets/images/mien-xao-bo.png",
             desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Miến Xào đa dạng mang bản sắc Việt Nam",
             menu: [
                 {
                     title: "Mì/ Miến Xào Bò",
                     price: "110.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/mien-xao-bo.jpg",
                 },
                 {
                     title: "Mì/ Miến Xào Chay",
@@ -642,7 +642,7 @@ export const CONFIG_SYSTEM = {
         {
             id: 17,
             title: "Cơm",
-            img: "./assets/images/ga-nuong.png",
+            img: "./assets/images/com-chien-hai-san.png",
             desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Cơm đa dạng mang bản sắc Việt Nam",
             menu: [
                 {
@@ -651,9 +651,9 @@ export const CONFIG_SYSTEM = {
                     img: "./assets/images/ga-nuong.png",
                 },
                 {
-                    title: "Cơm Chiên Hải Sản ",
+                    title: "Cơm Chiên Hải Sản",
                     price: "80.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/com-chien-hai-san.jpg",
                 },
                 {
                     title: "Cơm Chiên Trân Châu",
@@ -696,107 +696,107 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Bia Heineken",
                     price: "25.000/Lon",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/bia-heineken-bac-chai-thuy-tinh.jpg",
                 },
                 {
                     title: "Bia Tiger Bạc",
                     price: "20.000/Lon",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/tiger_bac.jpg",
                 },
                 {
                     title: "Bia Tiger Nâu",
                     price: "20.000/Lon",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/bia-tiger-nau-chai.jpeg",
                 },
                 {
                     title: "Bia 333",
                     price: "18.000/Lon",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/333.jpg",
                 },
                 {
                     title: "Bia Hà Nội",
                     price: "18.000/Lon",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/bia-HN.jpg",
                 },
                 {
                     title: "Bia Sài Gòn",
                     price: "15.000/Lon",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/sg.png",
                 },
                 {
-                    title: "Bia Corona",
+                    title: "Bia Coronita",
                     price: "38.000/Lon",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/bia-coronita.jpg",
                 },
                 {
                     title: "Rượu Chuối Hột",
                     price: "60.000/Bình",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ruou-hot-chuoi-rung-nguyen-chat-1.jpg",
                 },
                 {
                     title: "Rượu Nho Rừng",
                     price: "60.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/riu-nho.jpg",
                 },
                 {
                     title: "Rượu Sâm Biển",
                     price: "60.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ruou-ngam-hai-sam.jpg",
                 },
                 {
                     title: "Rượu Đinh Lăng",
                     price: "60.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ruou-dinh-lang.jpg",
                 },
                 {
                     title: "Rượu Cỏ Ngựa",
                     price: "60.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/do_uong.png",
                 },
                 {
                     title: "Rượu Soju",
                     price: "95.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/ruou-soju.jpg",
                 },
                 {
                     title: "Coca",
                     price: "15.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/do_uong.png",
                 },
                 {
                     title: "7Up",
                     price: "15.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/do_uong.png",
                 },
                 {
                     title: "Bò Húc",
                     price: "17.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/do_uong.png",
                 },
                 {
                     title: "Nước Suối",
                     price: "10.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/do_uong.png",
                 },
                 {
                     title: "Chanh Ép",
                     price: "25.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/do_uong.png",
                 },
                 {
                     title: "Dứa Ép",
                     price: "25.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/do_uong.png",
                 },
                 {
                     title: "Táo Ép",
                     price: "30.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/do_uong.png",
                 },
                 {
                     title: "Cam Ép",
                     price: "25.000",
-                    img: "./assets/images/ga-nuong.png",
+                    img: "./assets/images/do_uong.png",
                 },
             ]
         }
