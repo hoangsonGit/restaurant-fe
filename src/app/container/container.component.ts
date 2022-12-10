@@ -4,7 +4,6 @@ import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { ModalComponent } from '../share/component/modal/modal.component';
 import { ActivatedRoute } from '@angular/router';
-import { map } from 'rxjs';
 import { DataService } from '../share/service/shared.service';
 
 @Component({
@@ -18,6 +17,7 @@ export class ContainerComponent implements OnInit {
   faCoffee = faCoffee;
   activeButton = 1;
   menu = CONFIG_SYSTEM.NAVIGATION;
+  colorText = false;
   constructor(
     private ngbModal: NgbModal,
     private route: ActivatedRoute,
@@ -29,6 +29,7 @@ export class ContainerComponent implements OnInit {
   }
 
   ngOnInit() {
+    setInterval(() => this.colorText = !this.colorText, 200);
   }
 
   addClassActive(action: number) {
