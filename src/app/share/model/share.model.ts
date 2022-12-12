@@ -147,27 +147,27 @@ export const CONFIG_SYSTEM = {
                 {
                     title: "Tôm Sốt Thái",
                     price: "149.000",
-                    img: "./assets/images/tom_sot_thai.png",
+                    img: "./assets/images/tom_sot_thai.jpg",
                 },
                 {
                     title: "Tôm Mù Tạt",
                     price: "149.000",
-                    img: "./assets/images/tom-song-mu-tat.jpg",
+                    img: "./assets/images/default.png",
                 },
                 {
                     title: "Tôm Nướng Muối Ớt",
                     price: "149.000",
-                    img: "./assets/images/tom-shushi.jpg",
+                    img: "./assets/images/default.png",
                 },
                 {
                     title: "Tôm Chiên Cốm",
                     price: "149.000",
-                    img: "./assets/images/tom-rang-me.jpg",
+                    img: "./assets/images/default.png",
                 },
                 {
                     title: "Tôm Chiên Củ Sen",
                     price: "149.000",
-                    img: "./assets/images/tom-chien-gion.jpg",
+                    img: "./assets/images/tom_chien_cu_sen.jpg.jpg",
                 },
             ]
         },
@@ -515,7 +515,7 @@ export const CONFIG_SYSTEM = {
         {
             id: 15,
             title: "Lẩu",
-            img: "./assets/images/bo-nhung-giam.png",
+            img: "./assets/images/lau.png",
             desc: "Khó ai có thể cưỡng lại hương vị hấp dẫn của các món ăn ngon. Vì thế Ẩm Thực Vườn Ba Tui đã làm ra những món Lẩu đa dạng mang bản sắc Việt Nam",
             menu: [
                 {
@@ -644,7 +644,7 @@ export const CONFIG_SYSTEM = {
         {
             id: 18,
             title: "Nước",
-            img: "./assets/images/default.png",
+            img: "./assets/images/do_uong.png",
             desc: "",
             menu: [
                 {
